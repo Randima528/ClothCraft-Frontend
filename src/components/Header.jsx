@@ -32,7 +32,7 @@ const Header = ({
               {/* Navigation Menu */}
               <nav className="flex items-center space-x-16">
                 <a
-                  href="#"
+                  href="/"
                   className="text-gray-700 hover:text-indigo-600 transition-colors font-medium"
                 >
                   Home
@@ -46,7 +46,7 @@ const Header = ({
                 
                
                 <a
-                  href="#"
+                  href="/about"
                   className="text-gray-700 hover:text-indigo-600 transition-colors font-medium"
                 >
                   About
