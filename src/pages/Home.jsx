@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Header from '../components/Header';
+import HeroSlider from '../components/HeroSlider';
 
 
 const Home = () => {
@@ -8,6 +9,10 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+
+      <main>
+        <HeroSlider />
+      </main>
     </div>
   );
 };
