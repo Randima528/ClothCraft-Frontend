@@ -1,11 +1,20 @@
-import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useState } from "react";
+import Home from "./pages/Home";
 
 const App = () => {
-  return (
-    <div>
-      <h1>Welcome to ClothCraft</h1>
-    </div>
-  )
-}
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-export default App
+    return (
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home/>} />
+           
+          </Routes>
+        </BrowserRouter>
+        );
+  
+};
+
+export default App;
+
