@@ -3,6 +3,7 @@ import { useState } from "react";
 import Home from "./pages/Home";
 import About from './pages/About';
 
+
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -10,7 +11,7 @@ const App = () => {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home/>} />
-            <Route path="/about" element={<About />} />
+            <Route path="/about" element={<About/>} />
            
           </Routes>
         </BrowserRouter>
