@@ -2,21 +2,21 @@ const BannerSection = () => {
   const banners = [
     {
       id: 1,
-      image: "/images/banner-01.jpg",
+      image: "/images/banner-01.png",
       title: "Women",
       subtitle: "Women Collection",
       link: "#",
     },
     {
       id: 2,
-      image: "/images/banner-02.jpg",
+      image: "/images/banner-02.png",
       title: "Men",
       subtitle: "Modern Wear",
       link: "#",
     },
     {
       id: 3,
-      image: "/images/banner-03.jpg",
+      image: "/images/banner-03.png",
       title: "Accessories",
       subtitle: "New Trend",
       link: "#",

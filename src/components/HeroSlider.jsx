@@ -6,21 +6,21 @@ const HeroSlider = () => {
   const slides = [
     {
       id: 1,
-      image: "/images/slide-01.jpg",
+      image: "/images/slide-01.png",
       subtitle: "Women Collection 2025",
       title: "Daily Wear",
       link: "#",
     },
     {
       id: 2,
-      image: "/images/slide-02.jpg",
+      image: "/images/slide-02.png",
       subtitle: "Men Trend Collection",
       title: "Fresh Styles",
       link: "#",
     },
     {
       id: 3,
-      image: "/images/slide-03.jpg",
+      image: "/images/slide-03.png",
       subtitle: "Modern Wear 2025",
       title: "New arrivals",
       link: "#",
