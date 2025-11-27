@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import HeroSlider from '../components/HeroSlider';
 import BannerSection from '../components/BannerSection';
 import ProductSection from '../components/ProductSection';
+import Footer from '../components/Footer';
 
 
 const Home = () => {
@@ -17,7 +18,7 @@ const Home = () => {
         <BannerSection />
         <ProductSection />
       </main>
-
+        <Footer />
       
     </div>
   );
