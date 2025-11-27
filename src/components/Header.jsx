@@ -15,13 +15,13 @@ const Header = ({
     <>
       <header className="relative">
         
-        <div className="hidden lg:block bg-white shadow-md fixed  left-0 right-0 z-50 transition-all duration-300">
+        <div className="hidden lg:block bg-transparent backdrop-blur-md shadow fixed  left-0 right-0 z-50 transition-all duration-300">
           <div className="max-w-7xl mx-auto px-4">
             <div className="flex items-center justify-between h-20">
 
               {/* Logo */}
               <div className="flex-shrink-0">
-                <a href="#" className="block">
+                <a href="/" className="block">
                   <img
                     src="/images/logo-01.png"
                     alt="Cloth Craft"
@@ -38,7 +38,7 @@ const Header = ({
                   Home
                 </a>
                 <a
-                  href="#"
+                  href="#ProductSection"
                   className="text-gray-700 hover:text-indigo-600 transition-colors font-medium"
                 >
                   Shop
