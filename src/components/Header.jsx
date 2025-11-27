@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+
 const Header = ({
   isMenuOpen,
   setIsMenuOpen,
@@ -22,13 +23,12 @@ const Header = ({
               <div className="flex-shrink-0">
                 <a href="#" className="block">
                   <img
-                    src="/images/icons/logo-01.png"
+                    src="/images/logo-01.png"
                     alt="Cloth Craft"
-                    className="h-9 w-auto"
+                    className="h-14 w-auto"
                   />
                 </a>
               </div>
-
               {/* Navigation Menu */}
               <nav className="flex items-center space-x-16">
                 <a
